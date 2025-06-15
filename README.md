@@ -1,7 +1,7 @@
 # Bybit Withdrawal Status Update & Auto-Trade
 
 
-In this particular example, a Python/Playwright utility that continuously monitors Bybit’s BSC (BEP20) withdrawal status, plays an alert sound when it flips to **“Normal”**, and simultaneously executes an **Open Long** order on the ZKJ\_USDT futures market at Ourbit. You can change the network, Trading pair, Exchange URL, trade direction suitable to ypur own needs
+In this particular example, a Python/Playwright utility that continuously monitors Bybit’s BSC (BEP20) withdrawal status, plays an alert sound when it flips to **“Normal”**, and simultaneously executes an **Open Long** order on the ZKJ\_USDT futures market at Ourbit. You can change the network, Trading pair, Exchange URL, and Trade Direction suitable to your own needs
 
 ---
 
