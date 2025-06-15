@@ -2,7 +2,7 @@
 """
 1) Open Bybit’s Deposit/Withdrawal page and Ourbit’s TOKEN_USDT futures page side by side.
 2) Keep Ourbit open the whole time.
-3) Monitor withdrawal status on Bybit every 1.5s.
+3) Monitor withdrawal status on Bybit every 1 second.
 4) As soon as it flips to “Normal”, play sound.mp3 and click “Open Long” on Ourbit—simultaneously.
 """
 
@@ -72,7 +72,7 @@ def main():
 
                 break
 
-            # wait rest of 2s cycle
+            # wait rest of 1s cycle
             bybit.wait_for_timeout(500)
 
         # leave both pages open for a bit so you can see
