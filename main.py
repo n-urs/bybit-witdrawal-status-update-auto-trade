@@ -2,7 +2,7 @@
 """
 1) Open Bybit’s Deposit/Withdrawal page and Ourbit’s TOKEN_USDT futures page side by side.
 2) Keep Ourbit open the whole time.
-3) Monitor withdrawal status on Bybit every 1 second.
+3) Monitor withdrawal status on Bybit every 1 second by click the "update" button
 4) As soon as it flips to “Normal”, play sound.mp3 and click “Open Long” on Ourbit—simultaneously.
 """
 
